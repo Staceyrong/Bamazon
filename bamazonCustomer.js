@@ -85,7 +85,6 @@ connection.connect(function(err) {
 }
 function reprompt(){
     inquirer.prompt([{
-    //   type: "confirm",
       name: "reply",
       message: "Would you like to purchase another item?",
       validate: function(value){
